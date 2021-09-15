@@ -1,0 +1,54 @@
+{
+  "name": "vs_myprojects_guipython",
+  "version": "1.0.0",
+  "description": "VS_MyProjects GUI Python",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "./node_modules/webpack/bin/webpack.js --mode development --config webpack.config.js",
+    "prod_build": "./node_modules/webpack/bin/webpack.js --mode production --config webpack.config.js"
+  },
+  "author": "Ivan I. Atanasov",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.0.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0",
+    "webpack-dev-server": "^3.1.4",
+    "webpack-notifier": "^1.6.0"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.13.0",
+    "@babel/core": "^7.14.0",
+    "@fortawesome/fontawesome-free": "^5.8.2",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-lodash": "^3.3.2",
+    "bootstrap": "^4.3.1",
+    "bootstrap-gtreetable": "gilek/bootstrap-gtreetable",
+    "bootstrap-sass": "^3.4.1",
+    "ckeditor": "^4.0.0",
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "glyphicons": "^0.2",
+    "jquery": "^3.5.0",
+    "jquery-duplicate-fields": "https://github.com/iatanasov77/jquery-duplicate-fields.git",
+    "jquery-easyui": "^1.5.21",
+    "jquery-form": "^4.2.2",
+    "jquery-multi-select": "https://github.com/mysociety/jquery-multi-select.git",
+    "jquery-ui-dist": "^1.12.1",
+    "jquery.nicescroll": "^3.7.6",
+    "mini-css-extract-plugin": "^1.6.0",
+    "popper": "^1.0.1",
+    "popper.js": "^1.15.0",
+    "style-loader": "^2.0.0",
+    "tooltipster": "^4.2.8",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.37.0",
+    "webpack-bundle-tracker": "^0.4.3",
+    "webpack-cli": "^4.2.0"
+  }
+}

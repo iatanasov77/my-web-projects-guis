@@ -1,0 +1,16 @@
+See Example Project: https://github.com/django-cms/django-cms
+-----------------------------------------------------------------
+
+Useful commands:
+-----------------
+/opt/python_virtual_environements/django_3/venv/bin/django-admin startproject VS_MyProjects_GuiPython
+cd VS_MyProjects_GuiPython
+
+/opt/python_virtual_environements/django_3/venv/bin/python manage.py createsuperuser
+
+/opt/python_virtual_environements/django_3/venv/bin/python manage.py startapp myprojects
+
+/opt/python_virtual_environements/django_3/venv/bin/python manage.py makemigrations
+/opt/python_virtual_environements/django_3/venv/bin/python manage.py migrate
+ 
+ 
