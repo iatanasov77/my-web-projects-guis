@@ -1,6 +1,10 @@
 See Example Project: https://github.com/django-cms/django-cms
 -----------------------------------------------------------------
 
+For Directory Structure Example Use:
+--------------------------------------------------------------------
+https://github.com/django-cms/django-cms
+
 When Change Code Use This Command to Clean Old Compiled Sources:
 --------------------------------------------------------------------
 touch VS_MyProjects_GuiPython/wsgi.py
