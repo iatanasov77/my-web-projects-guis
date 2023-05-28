@@ -9,12 +9,21 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.GetMapping;
 
 @RestController
-public class TomcatController {
-	
-	@GetMapping("/hello")
-    public Collection<String> sayHello() {
-        return IntStream.range(0, 10)
-          .mapToObj(i -> "Hello number " + i)
-          .collect(Collectors.toList());
+public class TomcatController
+{	
+	@GetMapping( "/" )
+    public Collection<String> sayHelloTomcat()
+    {
+        return IntStream.range( 0, 10 )
+          .mapToObj( i -> "Hello Tomcat number " + i )
+          .collect( Collectors.toList() );
+    }
+    
+    @GetMapping( "/myprojects/" )
+    public Collection<String> sayHello()
+    {
+        return IntStream.range( 0, 10 )
+          .mapToObj( i -> "Hello number " + i )
+          .collect( Collectors.toList() );
     }
 }

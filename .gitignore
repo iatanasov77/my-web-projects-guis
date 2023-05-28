@@ -23,6 +23,7 @@
 /Python/node_modules/
 /Python/static/
 /Python/yarn.lock
+/Python/**/__pycache__/
 
 ### Java ###
 /Java/target/
