@@ -212,12 +212,12 @@
                             
                             <!-- Tomcat 10 -->
                             <!--  
-                            <cargo.tomcat.manager.url>http://myprojects-not-php.lh:8081/manager/text</cargo.tomcat.manager.url>
+                            <cargo.tomcat.manager.url>http://myprojects-not-php.lh:8080/manager/text</cargo.tomcat.manager.url>
                             -->
                             
                             <!-- Tomcat 9 -->
-                            <cargo.servlet.port>8181</cargo.servlet.port>
-                            <cargo.tomcat.manager.url>http://myprojects-not-php.lh:8181/manager</cargo.tomcat.manager.url>
+                            <cargo.servlet.port>8180</cargo.servlet.port>
+                            <cargo.tomcat.manager.url>http://myprojects-not-php.lh:8180/manager</cargo.tomcat.manager.url>
                             
                             
                             <cargo.tomcat.deploy.update>true</cargo.tomcat.deploy.update>
